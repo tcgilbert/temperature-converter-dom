@@ -1,8 +1,13 @@
 html {
-  color: black;
+  color: white;
+  background-color: lightgray;
+  font-family: 'Trispace', sans-serif;
 }
 
 body {
+  font-family: inherit;
+  margin-top: 100px;
+  background-color: lightgray;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -12,15 +17,21 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: linear-gradient(red, rgb(164, 3, 3));
+  background: antiquewhite;
   text-align: center;
   width: 600px;
   height: 300px;
   border-radius: 20px;
   border: solid 8px dodgerblue;
+  
+}
+
+h1 {
+  margin: 0
 }
 
 #output {
   padding: 10px;
+  color: white;
   background-color: dodgerblue;
 }
