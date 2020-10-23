@@ -34,7 +34,7 @@ function update() {
 }
 
 function reset() {
-  output.innerHTML = "0&degF = 0&degC";
+  output.innerHTML = "0&degF = -18&degC";
   textField.value = "";
   faren.checked = true;
   textField.value = "0";
