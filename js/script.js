@@ -46,6 +46,6 @@ function fToC(input) {
 }
 
 function cToF(input) {
-  let converted = input * (5 / 9) + 32;
+  let converted = (input * (9 / 5)) + 32;
   return converted.toFixed();
 }
